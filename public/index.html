@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Open AI ChatPOT</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script type="text/javascript" src="./js/main.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="header-profile" style="background: #fff;">
+				<img  style="border-radius: 50%;height: 40px;padding: 4px 7px;" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLo8lUu09nffAceisDA9cOsSFCG2R_iVtZItYa7W3l1e_u04MhK5R03kc&s' />
+				<div style="text-align: right;width: 100%;padding: 10px 20px;">
+					<i class="fa-solid fa-ellipsis-vertical"></i>
+				</div>
+			</div>
+			<div class="chat__body">
+				<div class="base-container">
+				  <div class="friend-text-div">
+				    <img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light' />
+				    <div class="friend-text-container">
+				      <div class="friend-text">Yay!</div>
+				    </div>
+				  </div>
+				  <div class="my-text-div">
+				    <div class="my-text-container">
+				      <div class="my-text">Yeah</div>
+				    </div>
+				  </div>
+			</div>
+			<div class="chat__input" style="background: #fff;">
+				<div class="user-input"></div>
+				<div class="input-msg">
+					<input type="text" id="send-input" placeholder="type something" style="padding-left: 10px;" />
+					<i onclick="sendMessage()" class='far fa-paper-plane'></i>
+				</div>
+			</div>
+
+			</div>
+		</div>
+</body>
+</html>
